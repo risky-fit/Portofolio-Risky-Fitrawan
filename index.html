@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Risky Fitrawan - Logistics Engineering portfolio. Supply Chain, Inventory, Data Analytics and System Dynamics.">
+  <meta name="theme-color" content="#0b1220">
+  <title>Risky Fitrawan | Logistics & Supply Chain</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .teaching-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    .experience-layout-reverse {
+      grid-template-columns: 1fr 1fr;
+    }
+    .certificate-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 28px;
+    }
+    .certificate-image {
+      overflow: hidden;
+    }
+    .certificate-image img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      display: block;
+    }
+    .certificate-image .image-placeholder.show {
+      display: flex;
+    }
+    @media (max-width: 900px) {
+      .teaching-grid,
+      .certificate-grid,
+      .experience-layout-reverse {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+
+  <header class="navbar" id="navbar">
+    <a href="#home" class="brand">RF<span>.</span></a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certificates</a>
+      <a href="#contact" class="nav-cta">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="hero-content reveal">
+        <div class="eyebrow"><span class="status-dot"></span> Open to opportunities</div>
+        <h1>Risky <span>Fitrawan</span></h1>
+        <h2>Logistics Engineering Graduate<br><strong>Supply Chain • Inventory • Data Analytics</strong></h2>
+        <p class="hero-copy">
+          Turning operational data into smarter logistics decisions through analytical thinking,
+          inventory modeling, and practical supply chain solutions.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View My Projects <span>↗</span></a>
+          <a href="https://drive.google.com/file/d/1ZWkR0T8ayG4TIZSJDQaLzD352VEWx2Ru/view?usp=sharing" class="btn btn-secondary" download>Download CV <span>↓</span></a>
+        </div>
+
+        <div class="hero-stats">
+          <div><strong>3.80</strong><span>GPA / 4.00</span></div>
+          <div><strong>2022–2026</strong><span>Logistics Engineering</span></div>
+          <div><strong>6 Month</strong><span>Student Exchange</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="image-frame">
+          <img src="https://i.ibb.co.com/1Gt7NLSP/ceo.png" alt="Risky Fitrawan professional photo"
+               onerror="this.style.display='none'; this.nextElementSibling.classList.add('show')">
+          <div class="image-placeholder">
+            <div class="placeholder-icon">RF</div>
+            <p>Replace with<br><strong>assets/profile.jpg</strong></p>
+          </div>
+    
+    </section>
+
+    <!-- TRUST STRIP -->
+    <section class="trust-strip">
+      <div>LOGISTICS ENGINEERING</div>
+      <div>SUPPLY CHAIN</div>
+      <div>INVENTORY CONTROL</div>
+      <div>DATA ANALYTICS</div>
+      <div>SYSTEM DYNAMICS</div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="section-heading reveal">
+        <span class="section-number">01 / ABOUT</span>
+        <h2>Analytical mindset.<br><span>Logistics perspective.</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p class="lead">
+            I am a Logistics Engineering graduate from <strong>Universitas Malikussaleh</strong>
+            with a strong interest in Supply Chain Management, Inventory Control,
+            Warehouse Management, and Data Analytics.
+          </p>
+          <p>
+            I have handson exposure to logistics operations through my internship at
+            <strong>PT Kereta Api Indonesia (Persero) And PT Pelindo Multi Terminal Branch Lhokseumawe</strong>, as well as academic experience
+            in developing dynamic simulation models for inventory control.
+          </p>
+          <p>
+            I enjoy understanding operational problems, working with data, and translating
+            analysis into practical solutions that can support better decisions.
+          </p>
+
+          <div class="about-tags">
+            <span>Analytical</span>
+            <span>Problem Solver</span>
+            <span>Adaptable</span>
+            <span>Team Player</span>
+            <span>Continuous Learner</span>
+          </div>
+        </div>
+
+        <div class="about-cards reveal">
+          <div class="metric-card">
+            <span>01</span>
+            <strong>Logistics</strong>
+            <p>Supply chain, inventory, warehouse & operations.</p>
+          </div>
+          <div class="metric-card">
+            <span>02</span>
+            <strong>Analytics</strong>
+            <p>Excel, SPSS, forecasting & operational analysis.</p>
+          </div>
+          <div class="metric-card">
+            <span>03</span>
+            <strong>Modeling</strong>
+            <p>System Dynamics, simulation & scenario analysis.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section section-dark" id="experience">
+      <div class="section-heading reveal">
+        <span class="section-number">02 / EXPERIENCE</span>
+        <h2>Industry <span>Experience</span></h2>
+      </div>
+
+      <div class="experience-layout">
+        <div class="experience-image reveal">
+          <img src="https://i.ibb.co.com/XfdJgcYb/p5.jpg"
+               alt="PT Kereta Api Indonesia internship documentation"
+               onerror="this.style.display='none'; this.nextElementSibling.classList.add('show')">
+          <div class="image-placeholder dark-placeholder">
+            <div class="placeholder-icon">KAI</div>
+            <p>Replace with<br><strong>assets/kai.jpg</strong></p>
+          </div>
+        </div>
+
+        <div class="experience-content reveal">
+          <div class="experience-date">JAN 2025 — FEB 2025</div>
+          <h3>Logistics Intern</h3>
+          <h4>PT Kereta Api Indonesia (Persero) · UPT Balai Yasa Pulubrayan Medan</h4>
+          <p>
+            Practical exposure to industrial logistics operations, material management,
+            inventory activities, and logistics administration.
+          </p>
+
+          <ul class="check-list">
+            <li>Supported inventory and material management activities.</li>
+            <li>Assisted in monitoring stock availability and logistics data.</li>
+            <li>Supported warehouse and material distribution operations.</li>
+            <li>Assisted with logistics administration and documentation.</li>
+          </ul>
+
+          <div class="skill-pills">
+            <span>Inventory</span><span>Warehouse</span><span>Material Handling</span><span>Logistics Operations</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="experience-layout experience-layout-reverse" style="margin-top: 80px;">
+        <div class="experience-content reveal">
+          <div class="experience-date">INDUSTRY EXPERIENCE</div>
+          <h3>Logistics / Operations Exposure</h3>
+          <h4>PT Pelindo Multi Terminal · Branch Lhokseumawe</h4>
+          <p>
+            Academic and operational exposure related to inventory control, dry bulk
+            terminal operations, logistics data, and supply chain analysis.
+          </p>
+
+          <ul class="check-list">
+            <li>Observed and analyzed inventory management activities for dry bulk commodities.</li>
+            <li>Studied stock fluctuation, demand uncertainty, and replenishment processes.</li>
+            <li>Applied logistics analysis to support inventory control evaluation.</li>
+            <li>Developed a System Dynamics model for inventory policy evaluation.</li>
+          </ul>
+
+          <div class="skill-pills">
+            <span>Inventory Control</span><span>Terminal Operations</span><span>Supply Chain</span><span>System Dynamics</span>
+          </div>
+        </div>
+
+        <div class="experience-image reveal">
+  <img 
+    src="https://i.ibb.co.com/G4nhSY7X/a5.jpg" 
+    alt="PT Pelindo Multi Terminal documentation"
+    style="width: 100%; height: 100%; object-fit: cover; object-position: center;"
+  >
+</div>
+      </div>
+    </section>
+
+    <!-- TEACHING EXPERIENCE -->
+    <section class="section soft-bg" id="teaching">
+      <div class="section-heading reveal">
+        <span class="section-number">03 / TEACHING</span>
+        <h2>Teaching & <span>Mentoring</span></h2>
+      </div>
+
+      <div class="teaching-grid">
+        <article class="lead-card reveal">
+          <span class="lead-number">01</span>
+          <h3>Teaching Experience</h3>
+          <p>
+            <strong>Teaching / Instructor / Tutor</strong><br>
+            Add institution or program name here.
+          </p>
+          <div class="skill-pills">
+            <span>Teaching</span><span>Presentation</span><span>Mentoring</span>
+          </div>
+        </article>
+
+        <article class="lead-card reveal">
+          <span class="lead-number">02</span>
+          <h3>Training & Knowledge Sharing</h3>
+          <p>
+            <strong>Training / Workshop / Knowledge Sharing</strong><br>
+            Add program, topic, and period here.
+          </p>
+          <div class="skill-pills">
+            <span>Logistics</span><span>Excel</span><span>Data Analysis</span>
+          </div>
+        </article>
+
+        <article class="lead-card reveal">
+          <span class="lead-number">03</span>
+          <h3>Academic Mentoring</h3>
+          <p>
+            <strong>Mentor / Academic Support</strong><br>
+            Add relevant teaching or mentoring activity here.
+          </p>
+          <div class="skill-pills">
+            <span>Problem Solving</span><span>Communication</span><span>Mentoring</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECT -->
+    <section class="section" id="projects">
+      <div class="section-heading reveal">
+        <span class="section-number">04 / FEATURED PROJECT</span>
+        <h2>Turning a logistics problem<br>into a <span>simulation model.</span></h2>
+      </div>
+
+      <article class="project-card reveal">
+        <div class="project-main-image">
+          <img src="https://i.ibb.co.com/KpGV5g0b/Desain-tanpa-judul-1.jpg" alt="Dynamic inventory simulation project"
+               onerror="this.style.display='none'; this.nextElementSibling.classList.add('show')">
+          <div class="image-placeholder">
+            <div class="placeholder-icon">SIM</div>
+            <p>Replace with<br><strong>assets/project.jpg</strong></p>
+          </div>
+          <div class="project-label">THESIS PROJECT</div>
+        </div>
+
+        <div class="project-info">
+          <span class="project-kicker">SYSTEM DYNAMICS · INVENTORY CONTROL</span>
+          <h3>Dynamic Inventory Simulation</h3>
+          <p>
+            Model and simulation of dynamic systems for evaluating inventory control policies
+            for dry bulk commodities at PT Pelindo Multi Terminal, Lhokseumawe Branch.
+          </p>
+
+          <div class="project-process">
+            <div><span>01</span><strong>Problem</strong><small>Inventory fluctuation & demand uncertainty</small></div>
+            <div><span>02</span><strong>Model</strong><small>Demand → Inventory → Reorder → Replenishment</small></div>
+            <div><span>03</span><strong>Analysis</strong><small>Service level, SS, ROP & scenarios</small></div>
+          </div>
+
+          <div class="tools">
+            <span>Vensim</span><span>Microsoft Excel</span><span>SPSS</span><span>Forecasting</span>
+          </div>
+        </div>
+      </article>
+
+     
+      <p class="project-note">
+        * Metrics shown above are calculation/model outputs from the academic inventory study.
+      </p>
+    </section>
+
+    <!-- EDUCATION -->
+    <section class="section soft-bg" id="education">
+      <div class="section-heading reveal">
+        <span class="section-number">05 / EDUCATION</span>
+        <h2>Academic <span>Journey</span></h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2022 — 2026</div>
+          <div class="timeline-content">
+            <span class="timeline-label">BACHELOR'S DEGREE</span>
+            <h3>Universitas Malikussaleh</h3>
+            <h4>Logistics Engineering</h4>
+            <p>GPA <strong>3.80 / 4.00</strong></p>
+            <div class="skill-pills">
+              <span>Supply Chain</span><span>Inventory</span><span>Logistics</span><span>Data Analysis</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2023 — 2024</div>
+          <div class="timeline-content">
+            <span class="timeline-label">STUDENT EXCHANGE · 1 SEMESTER</span>
+            <h3>Universitas Surabaya (UBAYA)</h3>
+            <h4>Industrial Engineering · Merdeka Student Exchange Program</h4>
+            <p>
+              Expanded academic exposure in Industrial Engineering, operations,
+              process improvement, and problem-solving while adapting to a new academic environment.
+            </p>
+              <div class="skill-pills">
+              <span>Quality Management</span><span>Integration Systems</span><span>Industrial Engineering</span><span>Design of Facilities</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2018 — 2021</div>
+          <div class="timeline-content">
+            <span class="timeline-label">SENIOR HIGH SCHOOL</span>
+            <h3>SMA NEGERI 2 BINJAI</h3>
+            <h4>Math and Science</h4>
+            <p>
+              Embarking on an academic journey with a specialization in mathematics and natural sciences, 
+              driven by a passion for physics, mathematics, and chemistry.
+            </p>
+              <div class="skill-pills">
+              <span>Math</span><span>Science</span><span>Physics</span><span>Leadership</span>
+            </div>
+          </div>
+        </div>
+         
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section" id="skills">
+      <div class="section-heading reveal">
+        <span class="section-number">06 / SKILLS</span>
+        <h2>What I can <span>bring.</span></h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-column reveal">
+          <div class="skill-icon">SC</div>
+          <h3>Supply Chain</h3>
+          <p>Understanding of end-to-end logistics processes and supply chain coordination.</p>
+          <div class="skill-list">
+            <span>Supply Chain Management</span>
+            <span>Inventory Control</span>
+            <span>Warehouse Management</span>
+            <span>Procurement</span>
+            <span>Logistics Operations</span>
+          </div>
+        </div>
+
+        <div class="skill-column reveal">
+          <div class="skill-icon">DA</div>
+          <h3>Data & Analytics</h3>
+          <p>Using data to understand operational performance and support decisions.</p>
+          <div class="skill-list">
+            <span>Microsoft Excel</span>
+            <span>SPSS</span>
+            <span>Demand Forecasting</span>
+            <span>Statistical Analysis</span>
+            <span>Data Visualization</span>
+          </div>
+        </div>
+
+        <div class="skill-column reveal">
+          <div class="skill-icon">SD</div>
+          <h3>Modeling & Tools</h3>
+          <p>Building models to test scenarios and understand dynamic operational behavior.</p>
+          <div class="skill-list">
+            <span>Vensim</span>
+            <span>System Dynamics</span>
+            <span>Inventory Simulation</span>
+            <span>Microsoft PowerPoint</span>
+            <span>Microsoft Word</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LEADERSHIP -->
+    <section class="section soft-bg" id="leadership">
+      <div class="section-heading reveal">
+        <span class="section-number">07 / LEADERSHIP</span>
+        <h2>Beyond the <span>classroom.</span></h2>
+      </div>
+
+      <div class="leadership-grid">
+        <div class="lead-card reveal">
+          <span class="lead-number">01</span>
+          <h3>OSIS</h3>
+          <p><strong>Chairman, Environmental Division</strong><br>SMA Negeri 2 Binjai</p>
+        </div>
+        <div class="lead-card reveal">
+          <span class="lead-number">02</span>
+          <h3>PRAMUKA</h3>
+          <p><strong>Chairman, Organizational Division</strong></p>
+        </div>
+        <div class="lead-card reveal">
+          <span class="lead-number">03</span>
+          <h3>HIMATELOGIS FT UNIMAL</h3>
+          <p><strong>Head of Religious Division</strong><br>Himpunan Mahasiswa Teknik Logistik</p>
+        </div>
+        <div class="lead-card reveal">
+          <span class="lead-number">04</span>
+          <h3>BEM FT UNIMAL</h3>
+          <p><strong>Public Relations Member</strong><br>Faculty of Engineering</p>
+        </div>
+        <div class="lead-card reveal">
+          <span class="lead-number">05</span>
+          <h3>IKATAN MAHASISWA BINJAI-LHOKSEUMAWE</h3>
+          <p><strong>2022 Cohort Coordinator</strong></p>
+        </div>
+        <div class="lead-card reveal">
+          <span class="lead-number">06</span>
+          <h3>PMM 3 UBAYA</h3>
+          <p><strong>Leader · 2023</strong></p>
+        </div>
+      </div>
+    </section>
+
+<!-- CERTIFICATES -->
+<section class="section" id="certifications">
+  <div class="section-heading reveal">
+    <span class="section-number">08 / CREDENTIALS</span>
+    <h2>Certifications & <span>Training</span></h2>
+  </div>
+
+  <div class="certificate-grid">
+
+    <!-- CERTIFICATE 01 -->
+    <div class="certificate-card reveal">
+      <div class="certificate-image">
+        <img 
+          src="https://i.ibb.co.com/BKvmXnc0/Screenshot-2026-08-08-131250.png"
+          alt="Procurement / Pengadaan Barang & Jasa"
+        >
+        <span class="certificate-number">01</span>
+      </div>
+
+      <div class="certificate-info">
+        <span>CERTIFICATION</span>
+        <h3>Procurement / Pengadaan Barang & Jasa</h3>
+        <p>Badan Standar Nasional Indonesia · 2026</p>
+
+        <button 
+          class="view-certificate"
+          onclick="openCertificate(this)"
+          data-image="https://i.ibb.co.com/BKvmXnc0/Screenshot-2026-08-08-131250.png"
+          data-title="Procurement / Pengadaan Barang & Jasa"
+        >
+          View Certificate <span>↗</span>
+        </button>
+      </div>
+    </div>
+
+
+    <!-- CERTIFICATE 02 -->
+    <div class="certificate-card reveal">
+      <div class="certificate-image">
+        <img 
+          src="https://i.ibb.co.com/XfnYxq5y/SERTIFIKAT-MAGANG-UPT-BALAI-YASA-PULUBRAYAN.png"
+          alt="Certificate in Appreciation"
+        >
+        <span class="certificate-number">02</span>
+      </div>
+
+      <div class="certificate-info">
+        <span>TRAINING</span>
+        <h3>Certificate in Appreciation</h3>
+        <p>PT Kereta Api Indonesia (Persero) · 2025</p>
+
+        <button 
+          class="view-certificate"
+          onclick="openCertificate(this)"
+          data-image="https://i.ibb.co.com/XfnYxq5y/SERTIFIKAT-MAGANG-UPT-BALAI-YASA-PULUBRAYAN.png"
+          data-title="Certificate in Appreciation"
+        >
+          View Certificate <span>↗</span>
+        </button>
+      </div>
+    </div>
+
+
+    <!-- CERTIFICATE 03 -->
+    <div class="certificate-card reveal">
+      <div class="certificate-image">
+        <img 
+          src="https://i.ibb.co.com/3yGSxt6Z/Sertifikat-Risky-Fitrawan-SMK3-page-0001.jpg"
+          alt="Occupational Health and Safety Management System Based on SNI ISO 45001:2018"
+        >
+        <span class="certificate-number">03</span>
+      </div>
+
+      <div class="certificate-info">
+        <span>CERTIFICATION / TRAINING</span>
+        <h3>Occupational Health and Safety Management System Based on SNI ISO 45001:2018</h3>
+        <p>
+          No. ELSDS/BSN/17840/XXVI · Badan Standar Nasional Indonesia ·
+          Valid until August 30, 2027
+        </p>
+
+        <button 
+          class="view-certificate"
+          onclick="openCertificate(this)"
+          data-image="https://i.ibb.co.com/3yGSxt6Z/Sertifikat-Risky-Fitrawan-SMK3-page-0001.jpg"
+          data-title="Occupational Health and Safety Management System Based on SNI ISO 45001:2018"
+        >
+          View Certificate <span>↗</span>
+        </button>
+      </div>
+    </div>
+
+
+    <!-- CERTIFICATE 04 -->
+    <div class="certificate-card reveal">
+      <div class="certificate-image">
+        <img 
+          src="https://i.ibb.co.com/TBf8HYgr/Serifikat-Risky-Fitrawan-Good-Manufacturing-Practices-page-0001.jpg"
+          alt="Good Manufacturing Practices / CPPOB"
+        >
+        <span class="certificate-number">04</span>
+      </div>
+
+      <div class="certificate-info">
+        <span>CERTIFICATION / TRAINING</span>
+        <h3>Good Manufacturing Practices (GMP) / CPPOB</h3>
+        <p>
+          No. ELSDS/BSN/17830/XXVI · Badan Standar Nasional Indonesia ·
+          Valid until August 30, 2027
+        </p>
+
+        <button 
+          class="view-certificate"
+          onclick="openCertificate(this)"
+          data-image="https://i.ibb.co.com/TBf8HYgr/Serifikat-Risky-Fitrawan-Good-Manufacturing-Practices-page-0001.jpg"
+          data-title="Good Manufacturing Practices (GMP) / CPPOB"
+        >
+          View Certificate <span>↗</span>
+        </button>
+      </div>
+    </div>
+
+
+    <!-- CERTIFICATE 05 -->
+    <div class="certificate-card reveal">
+      <div class="certificate-image">
+        <img 
+          src="https://i.ibb.co.com/M5k3gGb7/Screenshot-2026-08-31-181706.png"
+          alt="Supply Chain Management"
+        >
+        <span class="certificate-number">04</span>
+      </div>
+
+      <div class="certificate-info">
+        <span>CERTIFICATE OF PARTICIPATIONG</span>
+        <h3>Supply Chain Management Series: Pengelolaan Gudang</h3>
+        <p>
+          No: 002/SCMS-GUDANG-S4/X/LPK-TMI/2024 | LPK - Teknik dan Manajemen Industri |
+           27 Oktober 2024
+        </p>
+
+        <button 
+          class="view-certificate"
+          onclick="openCertificate(this)"
+          data-image="https://i.ibb.co.com/M5k3gGb7/Screenshot-2026-08-31-181706.png"
+          data-title="Supply Chain Management Series: Pengelolaan Gudang"
+        >
+          View Certificate <span>↗</span>
+        </button>
+      </div>
+    </div>
+
+
+
+    <!-- CERTIFICATE 06 -->
+     <div class="certificate-card reveal">
+      <div class="certificate-image">
+        <img 
+          src="https://i.ibb.co.com/Dgsw7C26/SERTIFIKAT-ASISTEN-LABORATORIUM-page-0001.jpg"
+          alt="Labor Assistant"
+        >
+        <span class="certificate-number">04</span>
+      </div>
+
+      <div class="certificate-info">
+        <span>CERTIFICATE</span>
+        <h3>Laboratory Assistant</h3>
+        <p>
+          No. 639/UN45.2.1.1.3/LAB/2024 | Program Studi Teknik Logistik Jurusan Teknik Industri
+          Universitas Malikussaleh | 24 Desember 2024
+        </p>
+
+        <button 
+          class="view-certificate"
+          onclick="openCertificate(this)"
+          data-image="https://i.ibb.co.com/Dgsw7C26/SERTIFIKAT-ASISTEN-LABORATORIUM-page-0001.jpg"
+          data-title="Asisten lab"
+        >
+          View Certificate <span>↗</span>
+        </button>
+      </div>
+    </div>
+
+
+    <!-- CERTIFICATE 07 -->
+    <div class="certificate-card reveal">
+      <div class="certificate-image">
+        <img 
+          src="https://i.ibb.co.com/YTXKMqT7/SERTIFIKAT-TOEFL-RIKSY-FITRAWAN-page-0001.jpg"
+          alt="Toefl Test Prediction"
+        >
+        <span class="certificate-number">07</span>
+      </div>
+
+      <div class="certificate-info">
+        <span>CERTIFICATE OF ACHIEVEMENT</span>
+        <h3>TOEFL TEST PREDICTION</h3>
+        <p>
+          No. 4244.239507/2400/VI/2026 | Speaking Partner | 28 July 2028
+        </p>
+
+        <button 
+          class="view-certificate"
+          onclick="openCertificate(this)"
+          data-image="https://i.ibb.co.com/YTXKMqT7/SERTIFIKAT-TOEFL-RIKSY-FITRAWAN-page-0001.jpg"
+          data-title=" TOEFL TEST PREDICTION"
+        >
+          View Certificate <span>↗</span>
+        </button>
+      </div>
+    </div>
+
+
+    <!-- CERTIFICATE 08 -->
+        <div class="certificate-card reveal">
+      <div class="certificate-image">
+        <img 
+          src="https://i.ibb.co.com/N6CBQYfr/SERTIFIKAT-PENGEMBANGANPRODUKTIVITAS-ENERGITERBARUKAN-RISKYFITRAWAN-Copy.png"
+          alt="Webinar on Renewable Energy Productivity Development"
+        >
+        <span class="certificate-number">08</span>
+      </div>
+
+      <div class="certificate-info">
+        <span>CERTIFICATE OF ACHIEVEMENT</span>
+        <h3>WEBINAR ON RENEWABLE ENERGY PRODUCTIVITY DEVELOPMENT</h3>
+        <p>
+          No. 1475/SUK/ICOMDEN/HIMATRO/XI/2024 | Universitas Malikussaleh | 05 November 2024
+        </p>
+
+        <button 
+          class="view-certificate"
+          onclick="openCertificate(this)"
+          data-image="https://i.ibb.co.com/N6CBQYfr/SERTIFIKAT-PENGEMBANGANPRODUKTIVITAS-ENERGITERBARUKAN-RISKYFITRAWAN-Copy.png"
+          data-title=" webinar on Renewable Energy Productivity Development"
+        >
+          View Certificate <span>↗</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- CERTIFICATE 09 -->
+       <div class="certificate-card reveal">
+      <div class="certificate-image">
+        <img 
+          src="https://i.ibb.co.com/MkYHCYtX/Risky-Fitrawan.png"
+          alt="Seminar on Supply Chain Management Strategy Transformation in Engineering, Procurement, and Construction (EPC) Projects"
+        >
+        <span class="certificate-number">09</span>
+      </div>
+
+      <div class="certificate-info">
+        <span>CERTIFICATE OF PARTICIPATION</span>
+        <h3>Seminar on Supply Chain Management Strategy Transformation in Engineering, Procurement, and Construction (EPC) Projects</h3>
+        <p>
+          No. 108/UN45.2.1.1.3/PK.01.02/2026 | Universitas Malikussaleh | 12 May 2026
+        </p>
+
+        <button 
+          class="view-certificate"
+          onclick="openCertificate(this)"
+          data-image="https://i.ibb.co.com/MkYHCYtX/Risky-Fitrawan.png"
+          data-title="Seminar on Supply Chain Management Strategy Transformation in Engineering, Procurement, and Construction (EPC) Projects"
+        >
+          View Certificate <span>↗</span>
+        </button>
+      </div>
+    </div>
+
+
+    <!-- CERTIFICATE 10 -->
+    <div class="certificate-card reveal">
+      <div class="certificate-image">
+        <img 
+          src="https://i.ibb.co.com/dsdH1Z8F/sertifikat-pmm-batch-3-page-0001.jpg"
+          alt="Student Exchange Program: PMM 3 UBAYA"
+        >
+        <span class="certificate-number">10</span>
+      </div>
+
+      <div class="certificate-info">
+        <span>CERTIFICATE OF PARTICIPATION</span>
+        <h3>Student Exchange Program: PMM 3 UBAYA</h3>
+        <p>
+          No. 0346/E.E2/DT.01.01/2024 | Direktorat Jendral Pendidikan Tinggi, Riset, dan Teknologi | 05 April 2024
+        </p>
+
+        <button 
+          class="view-certificate"
+          onclick="openCertificate(this)"
+          data-image="https://i.ibb.co.com/dsdH1Z8F/sertifikat-pmm-batch-3-page-0001.jpg"
+          data-title="Student Exchange Program: PMM 3 UBAYA"
+        >
+          View Certificate <span>↗</span>
+        </button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- CERTIFICATE LIGHTBOX -->
+<div class="certificate-lightbox" id="certificateLightbox">
+
+  <button 
+    class="lightbox-close" 
+    onclick="closeCertificate()"
+    aria-label="Close certificate"
+  >
+    ×
+  </button>
+
+  <div class="lightbox-content">
+
+    <div class="lightbox-header">
+      <span>CERTIFICATE PREVIEW</span>
+      <h3 id="lightboxTitle">Certificate</h3>
+    </div>
+
+    <div class="lightbox-image-wrapper">
+      <img id="lightboxImage" src="" alt="Certificate Preview">
+    </div>
+
+  </div>
+</div>
+    </section>
+
+    <!-- CAREER -->
+    <section class="section section-dark career">
+      <div class="career-inner reveal">
+        <span class="section-number">09 / CAREER INTEREST</span>
+        <h2>Ready to contribute to<br><span>better operations.</span></h2>
+        <p>
+          I am interested in opportunities where logistics knowledge, analytical thinking,
+          and data-driven problem solving can create measurable operational value.
+        </p>
+
+        <div class="career-tags">
+          <span>Supply Chain Analyst</span>
+          <span>Logistics Analyst</span>
+          <span>Inventory Control</span>
+          <span>Warehouse Management</span>
+          <span>Procurement</span>
+          <span>Operations Analyst</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="contact-grid">
+        <div class="contact-copy reveal">
+          <span class="section-number">10 / CONTACT</span>
+          <h2>Let's build something<br><span>better together.</span></h2>
+          <p>
+            Open to graduate roles, internships, and opportunities in Logistics,
+            Supply Chain, Inventory, Procurement, and Data Analytics.
+          </p>
+
+          <div class="contact-links">
+            <a href="mailto:your.email@example.com">
+              <span>✉</span>
+              <div><small>EMAIL</small><strong>riskyfitra81@gmail.com</strong></div>
+            </a>
+            <a href="https://www.linkedin.com/in/risky-fitrawan-399b2b312/" target="_blank" rel="noopener">
+              <span>in</span>
+              <div><small>LINKEDIN</small><strong>Risky Fitrawan</strong></div>
+            </a>
+            <a href="https://wa.me/6283194760441" target="_blank" rel="noopener">
+              <span>WA</span>
+              <div><small>WHATSAPP</small><strong>+62 831-9476-0441</strong></div>
+            </a>
+          </div>
+        </div>
+
+      <div class="contact-card reveal">
+          <div class="contact-card-top">
+            <span>RISKY FITRAWAN, S.T</span>
+            <span>PORTFOLIO 2026</span>
+          </div>
+          <div class="contact-photo">
+            <img src="https://i.ibb.co.com/ccvfZgG1/profil-11zon-1.png" alt="Risky Fitrawan">
+          </div>
+          <h3>Logistics Engineering</h3>
+          <p>Supply Chain · Inventory · Analytics</p>
+          <a href="https://drive.google.com/file/d/1ZWkR0T8ayG4TIZSJDQaLzD352VEWx2Ru/view?usp=sharing" download class="btn btn-primary full-btn">Download CV <span>↓</span></a>
+        </div>
+  <footer>
+    <div>© <span id="year"></span> Risky Fitrawan. All rights reserved.</div>
+    <div>Built with purpose • Logistics & Data</div>
+  </footer>
+
+  <button class="back-top" id="backTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
